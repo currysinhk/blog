@@ -1,0 +1,129 @@
+<header>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./counter.js"></script>
+</header>
+
+<body>
+    <div id="nav"></div>
+    <div class="container">
+        <form id="myForm">
+            <div class="d-grid gap-4">
+                <div class="row g2">
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="1min" class="form-label">1min</label>
+                            <input id="1min" type="number" class="form-control" id="1min" aria-describedby="1min" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="5mins" class="form-label">5mins</label>
+                            <input type="number" class="form-control" id="5mins" aria-describedby="5mins" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="10mins" class="form-label">10mins</label>
+                            <input id="10mins" type="number" class="form-control" id="10mins" aria-describedby="10mins" value="0" min="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid gap-4">
+                <div class="row g2">
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="15mins" class="form-label">15mins</label>
+                            <input id="15mins" type="number" class="form-control" id="15mins" aria-describedby="15mins" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="30mins" class="form-label">30mins</label>
+                            <input id="30mins" type="number" class="form-control" id="30mins" aria-describedby="30mins" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="1hr" class="form-label">1hr</label>
+                            <input id="1hr" type="number" class="form-control" id="1hr" aria-describedby="1hr" value="0" min="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid gap-2">
+                <div class="row g2">
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="2hrs" class="form-label">2hrs</label>
+                            <input id="2hrs" type="number" class="form-control" id="2hrs" aria-describedby="2hrs" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="3hrs" class="form-label">3hrs</label>
+                            <input id="3hrs" type="number" class="form-control" id="3hrs" aria-describedby="3hrs" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="8hrs" class="form-label">8hrs</label>
+                            <input id="8hrs" type="number" class="form-control" id="8hrs" aria-describedby="8hrs" value="0" min="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid gap-2">
+                <div class="row g2">
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="15hrs" class="form-label">15hr</label>
+                            <input id="15hrs" type="number" class="form-control" id="15hrs" aria-describedby="15hrs" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="1d" class="form-label">1d</label>
+                            <input id="1d" type="number" class="form-control" id="1d" aria-describedby="1d" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="3ds" class="form-label">3ds</label>
+                            <input id="3ds" type="number" class="form-control" id="3ds" aria-describedby="3ds" value="0" min="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid gap-2">
+                <div class="row g2">
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="7ds" class="form-label">7ds</label>
+                            <input id="7ds" type="number" class="form-control" id="7ds" aria-describedby="7ds" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="submit" class="form-label">Submit</label>
+                            <button type="submit" class="btn btn-primary form-control">Submit</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 bg-light border">
+                            <label for="result" class="form-label">Result (Day)</label>
+                            <input type="number" disabled class="form-control" id="result" aria-describedby="result">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
