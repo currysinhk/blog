@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://currysinhk.github.io/blog/categories/</loc>
-  </url><url>
     <loc>https://currysinhk.github.io/blog/</loc>
+    <lastmod>2022-04-20T21:38:32+08:00</lastmod>
+  </url><url>
+    <loc>https://currysinhk.github.io/blog/other/20220420-hello_world/</loc>
+    <lastmod>2022-04-20T21:38:32+08:00</lastmod>
+  </url><url>
+    <loc>https://currysinhk.github.io/blog/other/</loc>
+    <lastmod>2022-04-20T21:38:32+08:00</lastmod>
+  </url><url>
+    <loc>https://currysinhk.github.io/blog/categories/</loc>
   </url><url>
     <loc>https://currysinhk.github.io/blog/tags/</loc>
   </url>
