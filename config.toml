@@ -1,9 +1,40 @@
-baseURL = "https://currysinhk.github.io/blog/"
-languageCode = "en-us"
-title = "Curry Sin Space"
+baseURL = "https://currysinhk.github.io/blog"
+languageCode = "zh-HK"
+title = "Curry Sin的雜物房間"
 theme = "origin-hugo-theme"
-tag = "tags"
-series = "series"
-category = "categories"
+copyright = "© 2022, Curry Sin; Theme, Andrey Parfenov"
+DefaultContentLanguage = "zh-HK"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
 enbaleEmoji = "true"
 timeZone = "Hongkong"
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+  category = "categories"
+  
+[params]
+  description = "simple hugo theme"
+  featured = true
+  cssonly = false
+
+  [params.socials]
+    facebook = ""
+    twitter = ""
+    instagram = ""
+    youtube = ""
+    github = ""
+    gitlab = ""
+    linkedin = ""
+    slack = ""
+    stackoverflow = ""
+    medium= ""
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
