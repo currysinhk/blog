@@ -22,7 +22,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: go env -w GO111MODULE=auto && go install --tags extended && hugo-extended
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
