@@ -41,5 +41,5 @@ canonifyurls = true
     url = "/about/"
     weight = 10
 
-[permalinks]
-  posts = '/:year/:month/:title/'
+# [permalinks]
+#   posts = '/:year/:month/:title/'
