@@ -3,11 +3,13 @@ languageCode = "zh"
 title = "Curry Sin的雜物房間"
 theme = "origin-hugo-theme"
 copyright = "© 2022, Curry Sin; Theme, Andrey Parfenov"
-DefaultContentLanguage = "zh"
+DefaultContentLanguage = "zh-hk"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 enbaleEmoji = "true"
 timeZone = "Hongkong"
+paginate = 7
+canonifyurls = true
 
 [taxonomies]
   tag = "tags"
@@ -34,7 +36,10 @@ timeZone = "Hongkong"
 [menu]
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    identifier = "home"
+    name = "Home"
+    url = "/"
     weight = 10
+
+[permalinks]
+  posts = '/:year/:month/:title/'
