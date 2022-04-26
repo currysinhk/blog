@@ -9,7 +9,7 @@ footnoteReturnLinkContents = "^"
 enbaleEmoji = "true"
 timeZone = "Hongkong"
 paginate = 7
-canonifyurls = true
+# canonifyurls = true
 
 [taxonomies]
   tag = "tags"
