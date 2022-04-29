@@ -7,8 +7,8 @@ DefaultContentLanguage = "zh"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 enbaleEmoji = "true"
-timeZone = "Hongkong"
-paginate = 7
+# timeZone = "Hongkong"
+# paginate = 7
 # canonifyurls = true
 
 [taxonomies]
