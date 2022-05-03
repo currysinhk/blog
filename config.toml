@@ -39,7 +39,6 @@ enbaleEmoji = "true"
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
 
 # [permalinks]
 #   posts = '/:year/:month/:title/'
