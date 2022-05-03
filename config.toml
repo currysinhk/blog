@@ -1,4 +1,4 @@
-baseURL = "https://currysinhk.github.io/"
+baseURL = "https://currysinhk.github.io/blog/"
 languageCode = "zh"
 title = "Curry Sin的雜物房間"
 theme = "origin-hugo-theme"
