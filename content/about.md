@@ -6,4 +6,4 @@ aliases = ["about-us","about-hugo","contact"]
 author = "Curry Sin"
 +++
 
-About page, under construction 
+**Hey, 你唔知我係邊個？**

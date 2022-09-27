@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: 2022-04-20T21:38:32+08:00
-tags: ["hugo"]
+tags: ["notes"]
 series: ["starter"]
 categories: ["other"]
 draft: false
