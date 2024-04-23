@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://currysinhk.github.io/blog/sitemap.xml
