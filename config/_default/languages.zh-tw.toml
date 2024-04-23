@@ -1,0 +1,23 @@
+languageCode = "zh-tw"
+languageName = "繁體中文"
+weight = 4
+title = "CurrySIN 站點"
+
+[params]
+  displayName = "繁體中文"
+  isoCode = "zh-tw"
+  rtl = false
+  dateFormat = "2006-01-02"
+  logo = "img/currysin_logo_transparent.png"
+  description = "Here for ME, Here for YOU"
+
+[author]
+  name = "Curry SIN"
+  image = "img/currysin_logo.png"
+  headline = "Here for ME, Here for YOU"
+  bio = "Here for ME, Here for YOU"
+  links = [
+    { x-twitter = "https://twitter.com/sin_curry" },
+    { github = "https://github.com/currysinhk" },
+    { youtube = "https://www.youtube.com/channel/UCSTOmrWyUF_PW_20d1ILkFA" },
+  ]

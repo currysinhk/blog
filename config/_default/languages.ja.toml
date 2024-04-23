@@ -1,0 +1,23 @@
+languageCode = "ja"
+languageName = "日本語"
+weight = 3
+title = "CurrySIN サイト"
+
+[params]
+  displayName = "日本語"
+  isoCode = "ja"
+  rtl = false
+  dateFormat = "2006-01-02"
+  logo = "img/currysin_logo_transparent.png"
+  description = "Here for ME, Here for YOU"
+
+[author]
+  name = "Curry SIN"
+  image = "img/currysin_logo.png"
+  headline = "Here for ME, Here for YOU"
+  bio = "Here for ME, Here for YOU"
+  links = [
+    { x-twitter = "https://twitter.com/sin_curry" },
+    { github = "https://github.com/currysinhk" },
+    { youtube = "https://www.youtube.com/channel/UCSTOmrWyUF_PW_20d1ILkFA" },
+  ]
