@@ -70,6 +70,12 @@
   url = "https://github.com/currysinhk"
   weight = 400
 
+[[main]]
+  identifier = "youtube"
+  pre = "youtube"
+  url = "https://www.youtube.com/channel/UCSTOmrWyUF_PW_20d1ILkFA"
+  weight = 450
+
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
