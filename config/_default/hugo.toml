@@ -17,7 +17,7 @@ hasCJKLanguage = true
 buildDrafts = false
 buildFuture = false
 
-disqusShortname: currysin
+disqusShortname = "currysin"
 
 # googleAnalytics = "G-PEDMYR1V0K"
 
