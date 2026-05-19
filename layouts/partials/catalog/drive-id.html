@@ -1,0 +1,13 @@
+{{- /* Resolves Google Drive file ID from driveId or driveUrl page params. */ -}}
+{{- $id := .driveId | default "" -}}
+{{- if not $id -}}
+  {{- with .driveUrl -}}
+    {{- $parts := split . "/" -}}
+    {{- range $i, $p := $parts -}}
+      {{- if and (eq $p "d") (lt (add $i 1) (len $parts)) -}}
+        {{- $id = index $parts (add $i 1) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $id -}}

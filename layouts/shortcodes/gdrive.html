@@ -1,0 +1,25 @@
+{{- /*
+  Google Drive 公開圖片 shortcode
+
+  用法：
+    {{< gdrive id="FILE_ID" alt="說明" width="1200" >}}
+    {{< gdrive url="https://drive.google.com/file/d/FILE_ID/view" >}}
+
+  圖片需設為「知道連結的任何人」可檢視。
+*/ -}}
+{{- $id := .Get "id" -}}
+{{- with .Get "url" -}}
+  {{- $id = partial "catalog/drive-id.html" (dict "driveUrl" .) -}}
+{{- end -}}
+{{- $width := .Get "width" | default 1200 -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- if $id -}}
+<img
+  src="https://drive.google.com/thumbnail?id={{ $id }}&sz=w{{ $width }}"
+  alt="{{ $alt }}"
+  loading="lazy"
+  class="rounded-lg"
+/>
+{{- else -}}
+<p><em>gdrive shortcode: 請提供 id 或 url 參數</em></p>
+{{- end -}}

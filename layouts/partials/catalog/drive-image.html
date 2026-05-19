@@ -1,0 +1,30 @@
+{{- $ctx := . -}}
+{{- $page := .page | default . -}}
+{{- $driveId := "" -}}
+{{- if .driveId -}}
+  {{- $driveId = .driveId -}}
+{{- else -}}
+  {{- $driveId = partial "catalog/drive-id.html" (dict "driveId" $page.Params.driveId "driveUrl" $page.Params.driveUrl) -}}
+{{- end -}}
+{{- $class := .class | default "w-full rounded-lg object-cover" -}}
+{{- $width := .width | default 1200 -}}
+{{- $height := .height | default 0 -}}
+{{- $alt := .alt | default $page.Title -}}
+{{- if $driveId -}}
+  <img
+    class="{{ $class }}"
+    {{- if $height -}}
+    style="width:{{ $width }}px;height:{{ $height }}px;max-width:{{ $width }}px"
+    width="{{ $width }}"
+    height="{{ $height }}"
+    {{- end -}}
+    src="https://drive.google.com/thumbnail?id={{ $driveId }}&sz=w{{ $width }}"
+    alt="{{ $alt }}"
+    loading="lazy"
+    decoding="async"
+  />
+{{- else -}}
+  <div class="flex items-center justify-center w-full min-h-[12rem] rounded-lg bg-neutral-200 dark:bg-neutral-700 text-neutral-500 dark:text-neutral-400 text-sm p-4 text-center">
+    {{ i18n "catalog.missing_image" | default "未設定 Google Drive 圖片 ID" }}
+  </div>
+{{- end -}}

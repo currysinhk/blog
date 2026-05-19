@@ -1,0 +1,29 @@
+{{- $page := . -}}
+<a
+  href="{{ $page.RelPermalink }}"
+  class="catalog-card group box-border flex shrink-0 grow-0 flex-col overflow-hidden rounded-lg border-2 border-neutral-200 shadow-md transition hover:border-primary-400 dark:border-neutral-700 dark:hover:border-primary-500"
+  style="width:150px;max-width:150px;min-width:150px;flex-basis:150px"
+  data-catalog-types="{{ delimit $page.Params.catalogType "," }}"
+>
+  {{ partial "catalog/card-preview.html" $page }}
+  <div class="box-border w-full px-2 py-2" style="max-width:150px">
+    <h3 class="line-clamp-2 text-sm font-bold leading-tight text-neutral-800 decoration-primary-500 group-hover:underline dark:text-neutral">
+      {{ $page.Title | emojify }}
+    </h3>
+    {{- if $page.IsSection -}}
+      <p class="mt-0.5 text-[10px] text-primary-600 dark:text-primary-400">
+        {{ i18n "catalog.collection" | default "合集" }} · {{ len $page.RegularPages }}
+      </p>
+    {{- end -}}
+    {{- with $page.Description -}}
+      <p class="mt-0.5 line-clamp-2 text-[11px] leading-snug text-neutral-500 dark:text-neutral-400">{{ . }}</p>
+    {{- end -}}
+    {{- with $page.Params.catalogType -}}
+      <div class="mt-1 flex flex-wrap gap-0.5">
+        {{- range . -}}
+          <span class="rounded-full bg-primary-100 px-1.5 py-px text-[10px] text-primary-800 dark:bg-primary-900/40 dark:text-primary-200">{{ . }}</span>
+        {{- end -}}
+      </div>
+    {{- end -}}
+  </div>
+</a>

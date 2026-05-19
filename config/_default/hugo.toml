@@ -10,7 +10,8 @@ disableLanguages = [] #to allow translation work requiring shipping to productio
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-paginate = 100
+[pagination]
+  pagerSize = 100
 summaryLength = 30
 hasCJKLanguage = true
 
@@ -29,6 +30,7 @@ disqusShortname = "currysin"
   category = "categories"
   author = "authors"
   series = "series"
+  catalogType = "catalog-types"
 
 [sitemap]
   changefreq = 'always'
@@ -49,6 +51,10 @@ disqusShortname = "currysin"
     [[related.indices]]
         name = "categories"
         weight = 100
+
+    [[related.indices]]
+        name = "catalogType"
+        weight = 80
 
     [[related.indices]]
         name = "series"

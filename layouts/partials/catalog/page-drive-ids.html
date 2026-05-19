@@ -1,0 +1,25 @@
+{{- /* 從 front matter 與 Markdown 正文收集 Google Drive 檔案 ID（去重、保序） */ -}}
+{{- $page := . -}}
+{{- $ids := slice -}}
+{{- $raw := $page.RawContent | default "" -}}
+
+{{- $primary := partial "catalog/drive-id.html" (dict "driveId" $page.Params.driveId "driveUrl" $page.Params.driveUrl) -}}
+{{- if and $primary (findRE `^[a-zA-Z0-9_-]+$` $primary) -}}
+  {{- $ids = $ids | append $primary -}}
+{{- end -}}
+
+{{- $patterns := slice
+  `drive\.google\.com/file/d/([a-zA-Z0-9_-]+)`
+  `[?&]id=([a-zA-Z0-9_-]+)`
+  `\{\{[%<]?\s*gdrive[^}]*\bid=["']([a-zA-Z0-9_-]+)["']`
+-}}
+{{- range $patterns -}}
+  {{- range findRESubmatch . $raw -}}
+    {{- $id := index . 1 -}}
+    {{- if and $id (findRE `^[a-zA-Z0-9_-]+$` $id) (not (in $ids $id)) -}}
+      {{- $ids = $ids | append $id -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $ids -}}

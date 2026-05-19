@@ -15,6 +15,11 @@
   pageRef = "posts"
   weight = 10
 
+[[main]]
+  name = "图鉴"
+  pageRef = "catalog"
+  weight = 15
+
 # [[main]]
 #  name = "Examples"
 #  weight = 20

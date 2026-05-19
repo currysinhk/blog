@@ -1,0 +1,35 @@
+{{- /* 依條目 ID 數字排序：資料夾名或純數字 title；其餘按標題字母序排在後面 */ -}}
+{{- $pages := . -}}
+{{- $numeric := slice -}}
+{{- $other := slice -}}
+
+{{- range $pages -}}
+  {{- $slug := "" -}}
+  {{- with .File -}}
+    {{- $slug = path.Base (strings.TrimSuffix "/" .Dir) -}}
+  {{- end -}}
+  {{- $idStr := "" -}}
+  {{- if findRE `^\d+$` $slug -}}
+    {{- $idStr = $slug -}}
+  {{- else if findRE `^\d+$` .Title -}}
+    {{- $idStr = .Title -}}
+  {{- end -}}
+  {{- if $idStr -}}
+    {{- $numeric = $numeric | append (dict "page" . "id" (int $idStr)) -}}
+  {{- else -}}
+    {{- $other = $other | append (dict "page" . "title" .Title) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $numeric = sort $numeric "id" -}}
+{{- $other = sort $other "title" -}}
+
+{{- $sorted := slice -}}
+{{- range $numeric -}}
+  {{- $sorted = $sorted | append .page -}}
+{{- end -}}
+{{- range $other -}}
+  {{- $sorted = $sorted | append .page -}}
+{{- end -}}
+
+{{- return $sorted -}}

@@ -11,7 +11,7 @@ title = "CurrySIN 站點"
   logo = "img/currysin_logo_transparent.png"
   description = "Here for ME, Here for YOU"
 
-[author]
+[params.author]
   name = "Curry SIN"
   image = "img/currysin_logo.png"
   headline = "Here for ME, Here for YOU"

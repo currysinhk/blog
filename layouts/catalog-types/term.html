@@ -1,0 +1,27 @@
+{{ define "main" }}
+<header class="mt-5">
+  {{ partial "breadcrumbs.html" . }}
+  <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+    {{ .Title | emojify }}
+  </h1>
+  <p class="mt-2 text-neutral-500 dark:text-neutral-400">
+    {{ i18n "catalog.type_heading" | default "種類" }} · {{ len .Pages }} {{ i18n "catalog.entries" | default "項" }}
+  </p>
+  {{- if .Content -}}
+  <section class="mt-4 max-w-prose prose dark:prose-invert">{{ .Content | emojify }}</section>
+  {{- end -}}
+</header>
+
+{{- partial "catalog/grid-styles.html" . -}}
+<section class="mt-8 grid justify-start gap-4" id="catalog-grid">
+  {{- range partial "catalog/sort-by-id.html" .Pages -}}
+    {{ partial "catalog/card.html" . }}
+  {{- end -}}
+</section>
+
+<p class="mt-8 print:hidden">
+  <a href="{{ "/catalog/" | relLangURL }}" class="text-primary-600 hover:underline dark:text-primary-400">
+    ← {{ i18n "catalog.back_to_all" | default "返回圖鑑總覽" }}
+  </a>
+</p>
+{{ end }}

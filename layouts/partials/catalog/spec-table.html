@@ -1,0 +1,19 @@
+{{- $catalog := .Params.catalog | default dict -}}
+{{- if $catalog -}}
+<dl class="not-prose grid grid-cols-1 gap-3 sm:grid-cols-[minmax(7rem,auto)_1fr] text-sm border border-neutral-200 dark:border-neutral-700 rounded-lg p-4 bg-neutral-50 dark:bg-neutral-900/50">
+  {{- range $key, $val := $catalog -}}
+    {{- if and $val (ne $key "links") -}}
+      <dt class="font-semibold text-neutral-700 dark:text-neutral-300">{{ i18n (printf "catalog.field.%s" $key) | default ($key | humanize) }}</dt>
+      <dd class="text-neutral-600 dark:text-neutral-400">
+        {{- if reflect.IsSlice $val -}}
+          <ul class="list-disc list-inside space-y-1">
+            {{- range $val }}<li>{{ . }}</li>{{ end -}}
+          </ul>
+        {{- else -}}
+          {{ $val }}
+        {{- end -}}
+      </dd>
+    {{- end -}}
+  {{- end -}}
+</dl>
+{{- end -}}

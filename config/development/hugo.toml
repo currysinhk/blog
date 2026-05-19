@@ -1,0 +1,2 @@
+# 本地 hugo server 時顯示草稿，方便預覽尚未發布的圖鑑條目
+buildDrafts = true
