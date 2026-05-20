@@ -2,11 +2,11 @@
 
 {{ .Scratch.Set "scope" "list" }}
 {{ if .Site.Params.list.showHero | default false }}
-{{ $heroStyle := print "partials/hero/" .Site.Params.list.heroStyle ".html" }}
-{{ if templates.Exists $heroStyle }}
-{{ partial $heroStyle . }}
+{{ $heroPartial := print "hero/" .Site.Params.list.heroStyle ".html" }}
+{{ if templates.Exists (printf "partials/%s" $heroPartial) }}
+{{ partial $heroPartial . }}
 {{ else }}
-{{ partial "partials/hero/basic.html" . }}
+{{ partial "hero/basic.html" . }}
 {{ end }}
 {{- end -}}
 
