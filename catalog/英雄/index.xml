@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>英雄 on CurrySIN's Station</title><link>https://currysinhk.github.io/blog/catalog/%E8%8B%B1%E9%9B%84/</link><description>Recent content in 英雄 on CurrySIN's Station</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2026 Curry SIN</copyright><atom:link href="https://currysinhk.github.io/blog/catalog/%E8%8B%B1%E9%9B%84/index.xml" rel="self" type="application/rss+xml"/><item><title>ベオウルフ</title><link>https://currysinhk.github.io/blog/catalog/%E8%8B%B1%E9%9B%84/10002/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/catalog/%E8%8B%B1%E9%9B%84/10002/</guid><description>&lt;p&gt;在此撰寫補充說明（Markdown）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;設定 Google Drive 圖片：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;上傳圖片到 Google Drive&lt;/li&gt;
+&lt;li&gt;右鍵 → 共用 → 「知道連結的任何人」可檢視&lt;/li&gt;
+&lt;li&gt;複製連結中的 &lt;code&gt;FILE_ID&lt;/code&gt;（&lt;code&gt;/d/&lt;/code&gt; 與 &lt;code&gt;/view&lt;/code&gt; 之間的字串）填入 &lt;code&gt;driveId&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

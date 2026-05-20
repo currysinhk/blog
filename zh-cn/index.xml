@@ -1,1 +1,102 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>欢迎来到 Blowfish! :tada: on CurrySIN 站点</title><link>https://currysinhk.github.io/blog/zh-cn/</link><description>Recent content in 欢迎来到 Blowfish! :tada: on CurrySIN 站点</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 Curry SIN</copyright><lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://currysinhk.github.io/blog/zh-cn/index.xml" rel="self" type="application/rss+xml"/><item><title>这个网站来自哪里？</title><link>https://currysinhk.github.io/blog/zh-cn/posts/casual-things/website-setup/</link><pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/zh-cn/posts/casual-things/website-setup/</guid><description>Hugo 是什么 # Hugo # Hugo 是一个静态站点生成工具。 该网站有两种不同的类</description></item><item><title>这是一个图片帖子</title><link>https://currysinhk.github.io/blog/zh-cn/posts/testing-post/first-post/</link><pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/zh-cn/posts/testing-post/first-post/</guid><description>标题 # 这是一个标题。</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://currysinhk.github.io/blog/posts/testing-post/first-post/featured.jpg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>欢迎来到 Blowfish! :tada: on CurrySIN 站点</title><link>https://currysinhk.github.io/blog/zh-cn/</link><description>Recent content in 欢迎来到 Blowfish! :tada: on CurrySIN 站点</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2026 Curry SIN</copyright><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://currysinhk.github.io/blog/zh-cn/index.xml" rel="self" type="application/rss+xml"/><item><title>图鉴功能说明与使用方法</title><link>https://currysinhk.github.io/blog/zh-cn/posts/tech-things/catalog-guide/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/zh-cn/posts/tech-things/catalog-guide/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl"&gt;
+本站 &lt;strong&gt;图鉴&lt;/strong&gt; 可按种类浏览条目；支持单一条目，或「合集 + 多个子 Item」两种结构。图片来自 Google Drive 公开链接。
+&lt;/div&gt;
+&lt;h2 class="relative group"&gt;图鉴是什么？
+&lt;div id="%E5%9B%BE%E9%89%B4%E6%98%AF%E4%BB%80%E4%B9%88" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E5%9B%BE%E9%89%B4%E6%98%AF%E4%BB%80%E4%B9%88" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;图鉴与「帖子」分开，适合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按 &lt;strong&gt;种类&lt;/strong&gt;（&lt;code&gt;catalogType&lt;/code&gt;）分类的图片收藏&lt;/li&gt;
+&lt;li&gt;每条 &lt;strong&gt;结构化数据&lt;/strong&gt;（学名、产地、稀有度等）&lt;/li&gt;
+&lt;li&gt;用 &lt;strong&gt;Google Drive&lt;/strong&gt; 存图，无需把大图放进 Git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;顶部菜单 &lt;strong&gt;「图鉴」&lt;/strong&gt; → 简体：&lt;code&gt;/zh-cn/catalog/&lt;/code&gt;、英文：&lt;code&gt;/catalog/&lt;/code&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 class="relative group"&gt;三种页面层级
+&lt;div id="%E4%B8%89%E7%A7%8D%E9%A1%B5%E9%9D%A2%E5%B1%82%E7%BA%A7" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E4%B8%89%E7%A7%8D%E9%A1%B5%E9%9D%A2%E5%B1%82%E7%BA%A7" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;层级&lt;/th&gt;
+&lt;th&gt;网址示例&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;总览&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/catalog/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;所有顶层条目与合集&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;合集&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/catalog/英雄/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;一个主题下的多个子 Item&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;子条目&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/catalog/英雄/亚瑟/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;单个 Item 的详情与大图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;顶层可以是：&lt;/p&gt;</description></item><item><title>这个网站来自哪里？</title><link>https://currysinhk.github.io/blog/zh-cn/posts/casual-things/website-setup/</link><pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/zh-cn/posts/casual-things/website-setup/</guid><description>&lt;h2 class="relative group"&gt;Hugo 是什么
+&lt;div id="hugo-%E6%98%AF%E4%BB%80%E4%B9%88" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#hugo-%E6%98%AF%E4%BB%80%E4%B9%88" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 class="relative group"&gt;Hugo
+&lt;div id="hugo" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#hugo" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://gohugo.io/" target="_blank"&gt;
+Hugo&lt;/a&gt; 是一个静态站点生成工具。 该网站有两种不同的类型。 一个是静态网站，另一个是动态网站。 我可以在另一篇文章中讨论两种类型。&lt;/p&gt;
+&lt;p&gt;我更喜欢静态网站，因为它的加载时间更快。 此外，当您为个人网站规划静态网站时，Hugo 也是一个不错的选择。&lt;/p&gt;
+&lt;p&gt;当然，任何工具都有其基础语言。 一种非常强大的编程语言。 &lt;code&gt;Go&lt;/code&gt;。&lt;/p&gt;
+&lt;h3 class="relative group"&gt;Go
+&lt;div id="go" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#go" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://go.dev" target="_blank"&gt;
+Go&lt;/a&gt; 是 Google 支持的开源编程语言。 它使 Hugo 能够非常快速地渲染所有帖子和组件。 当你使用Hugo时你不必学习它。&lt;/p&gt;
+&lt;h2 class="relative group"&gt;安装 Hugo
+&lt;div id="%E5%AE%89%E8%A3%85-hugo" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E5%AE%89%E8%A3%85-hugo" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Hugo&lt;/code&gt; 支持多操作系统，Windows、MacOS、Linux 和 BSD。 在安装Hugo之前，您需要确保已经安装了&lt;a href="https://git-scm.com" target="_blank"&gt;
+Git&lt;/a&gt;和&lt;a href="https://go.dev/doc/install" target="_blank"&gt;
+Go&lt;/a&gt;。&lt;/p&gt;</description></item><item><title>这是一个图片帖子</title><link>https://currysinhk.github.io/blog/zh-cn/posts/testing-post/first-post/</link><pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/zh-cn/posts/testing-post/first-post/</guid><description>&lt;h1 class="relative group"&gt;标题
+&lt;div id="%E6%A0%87%E9%A2%98" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E6%A0%87%E9%A2%98" aria-label="锚点"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h1&gt;
+&lt;p&gt;这是一个标题。&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://currysinhk.github.io/blog/posts/testing-post/first-post/featured.jpg"/></item></channel></rss>

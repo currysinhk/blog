@@ -1,1 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache on CurrySIN's Station</title><link>https://currysinhk.github.io/blog/posts/tech-things/apache/</link><description>Recent content in Apache on CurrySIN's Station</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2024 Curry SIN</copyright><lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://currysinhk.github.io/blog/posts/tech-things/apache/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache Lincense Version 2.0</title><link>https://currysinhk.github.io/blog/posts/tech-things/apache/license-2/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/posts/tech-things/apache/license-2/</guid><description>Terminology # ASF = Apache Software Foundation # The ASF was formed from a group of developers of the Apache HTTP Server. The ASF is a 501(c)(3) charitable organization run almost exclusively by volunteers who oversee hundreds of projects.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache on CurrySIN's Station</title><link>https://currysinhk.github.io/blog/posts/tech-things/apache/</link><description>Recent content in Apache on CurrySIN's Station</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2026 Curry SIN</copyright><lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://currysinhk.github.io/blog/posts/tech-things/apache/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache Lincense Version 2.0</title><link>https://currysinhk.github.io/blog/posts/tech-things/apache/license-2/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/posts/tech-things/apache/license-2/</guid><description>&lt;h2 class="relative group"&gt;Terminology
+&lt;div id="terminology" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#terminology" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 class="relative group"&gt;ASF = Apache Software Foundation
+&lt;div id="asf--apache-software-foundation" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#asf--apache-software-foundation" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;The ASF was formed from a group of developers of the Apache HTTP Server. The ASF is a 501(c)(3) charitable organization run almost exclusively by volunteers who oversee hundreds of projects. Our sponsors enable us to maintain the infrastructure needed to support them.&lt;/p&gt;</description></item></channel></rss>

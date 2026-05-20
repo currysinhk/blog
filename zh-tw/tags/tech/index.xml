@@ -1,1 +1,94 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on CurrySIN 站點</title><link>https://currysinhk.github.io/blog/zh-tw/tags/tech/</link><description>Recent content in Tech on CurrySIN 站點</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>© 2024 Curry SIN</copyright><lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://currysinhk.github.io/blog/zh-tw/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>這個網站來自哪裡？</title><link>https://currysinhk.github.io/blog/zh-tw/posts/casual-things/website-setup/</link><pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/zh-tw/posts/casual-things/website-setup/</guid><description>What Hugo is # Hugo # Hugo 是靜態站點產生工具。 網站有兩種不同的類型。 一個</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on CurrySIN 站點</title><link>https://currysinhk.github.io/blog/zh-tw/tags/tech/</link><description>Recent content in Tech on CurrySIN 站點</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>© 2026 Curry SIN</copyright><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://currysinhk.github.io/blog/zh-tw/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>圖鑑功能說明與使用方法</title><link>https://currysinhk.github.io/blog/zh-tw/posts/tech-things/catalog-guide/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/zh-tw/posts/tech-things/catalog-guide/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl"&gt;
+本站 &lt;strong&gt;圖鑑&lt;/strong&gt; 可依種類瀏覽條目；支援單一條目、或「合集 + 多個子 Item」兩種結構。圖片來自 Google Drive 公開連結。
+&lt;/div&gt;
+&lt;h2 class="relative group"&gt;圖鑑是什麼？
+&lt;div id="%E5%9C%96%E9%91%91%E6%98%AF%E4%BB%80%E9%BA%BC" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E5%9C%96%E9%91%91%E6%98%AF%E4%BB%80%E9%BA%BC" aria-label="定位點"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;圖鑑與「貼文」分開，適合：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;依 &lt;strong&gt;種類&lt;/strong&gt;（&lt;code&gt;catalogType&lt;/code&gt;）分類的圖片收藏&lt;/li&gt;
+&lt;li&gt;每筆 &lt;strong&gt;結構化資料&lt;/strong&gt;（學名、產地、稀有度等）&lt;/li&gt;
+&lt;li&gt;以 &lt;strong&gt;Google Drive&lt;/strong&gt; 存圖，無需把大圖放進 Git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;頂部選單 &lt;strong&gt;「圖鑑」&lt;/strong&gt; → 繁中：&lt;code&gt;/zh-tw/catalog/&lt;/code&gt;、英文：&lt;code&gt;/catalog/&lt;/code&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 class="relative group"&gt;三種頁面層級
+&lt;div id="%E4%B8%89%E7%A8%AE%E9%A0%81%E9%9D%A2%E5%B1%A4%E7%B4%9A" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E4%B8%89%E7%A8%AE%E9%A0%81%E9%9D%A2%E5%B1%A4%E7%B4%9A" aria-label="定位點"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;層級&lt;/th&gt;
+&lt;th&gt;網址範例&lt;/th&gt;
+&lt;th&gt;說明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;總覽&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/catalog/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;所有頂層條目與合集&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;合集&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/catalog/英雄/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;一個主題下的多個子 Item（如英雄角色）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;子條目&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/catalog/英雄/亞瑟/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;單一 Item 的詳情與大圖&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;頂層可以是：&lt;/p&gt;</description></item><item><title>這個網站來自哪裡？</title><link>https://currysinhk.github.io/blog/zh-tw/posts/casual-things/website-setup/</link><pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/zh-tw/posts/casual-things/website-setup/</guid><description>&lt;h2 class="relative group"&gt;What Hugo is
+&lt;div id="what-hugo-is" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#what-hugo-is" aria-label="定位點"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 class="relative group"&gt;Hugo
+&lt;div id="hugo" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#hugo" aria-label="定位點"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://gohugo.io/" target="_blank"&gt;
+Hugo&lt;/a&gt; 是靜態站點產生工具。 網站有兩種不同的類型。 一個是靜態網站，一個是動態網站。 我可以在另一篇文章中討論兩種類型。&lt;/p&gt;
+&lt;p&gt;我更喜歡靜態網站，因為它的載入時間更快。 此外，當您為個人網站規劃靜態網站時，Hugo 也是一個不錯的選擇。&lt;/p&gt;
+&lt;p&gt;當然，任何工具都有其基礎語言。 一種非常強大的程式語言。 &lt;code&gt;Go&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 class="relative group"&gt;Go
+&lt;div id="go" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#go" aria-label="定位點"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://go.dev" target="_blank"&gt;
+Go&lt;/a&gt; 是 Google 支援的開源程式語言。 它使 Hugo 能夠非常快速地渲染所有帖子和元件。 當你使用Hugo時你不必學習它。&lt;/p&gt;
+&lt;h2 class="relative group"&gt;安裝 Hugo
+&lt;div id="%E5%AE%89%E8%A3%9D-hugo" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E5%AE%89%E8%A3%9D-hugo" aria-label="定位點"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Hugo&lt;/code&gt; 支援多重作業系統，Windows、MacOS、Linux 和 BSD。 在安裝Hugo之前，您需要確保已經安裝了&lt;a href="https://git-scm.com" target="_blank"&gt;
+Git&lt;/a&gt;和&lt;a href="https://go.dev/doc/install" target="_blank"&gt;
+Go&lt;/a&gt;。&lt;/p&gt;</description></item></channel></rss>

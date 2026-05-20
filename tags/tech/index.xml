@@ -1,1 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on CurrySIN's Station</title><link>https://currysinhk.github.io/blog/tags/tech/</link><description>Recent content in Tech on CurrySIN's Station</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2024 Curry SIN</copyright><lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://currysinhk.github.io/blog/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache Lincense Version 2.0</title><link>https://currysinhk.github.io/blog/posts/tech-things/apache/license-2/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/posts/tech-things/apache/license-2/</guid><description>Terminology # ASF = Apache Software Foundation # The ASF was formed from a group of developers of the Apache HTTP Server. The ASF is a 501(c)(3) charitable organization run almost exclusively by volunteers who oversee hundreds of projects.</description></item><item><title>OpenAPI Specification</title><link>https://currysinhk.github.io/blog/posts/tech-things/swagger/open-api/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/posts/tech-things/swagger/open-api/</guid><description>Terminology # Webhook # A webhook is an HTTP-based callback function that allows lightweight, evebnt-driven communication between 2 application programming interface (APIs). Webhooks are used by a wide variety of web apps to receive small amounts of data from other apps, but webhooks can also be used to trigger automation workflows in Gitops environments.</description></item><item><title>Where this site from?</title><link>https://currysinhk.github.io/blog/posts/casual-things/website-setup/</link><pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/posts/casual-things/website-setup/</guid><description>What Hugo is # Hugo # Hugo is a static site generator tool. The website has two different types. one of a static website and another is a dynamic website.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on CurrySIN's Station</title><link>https://currysinhk.github.io/blog/tags/tech/</link><description>Recent content in Tech on CurrySIN's Station</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2026 Curry SIN</copyright><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://currysinhk.github.io/blog/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Illustrated Catalog: Guide and Usage</title><link>https://currysinhk.github.io/blog/posts/tech-things/catalog-guide/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/posts/tech-things/catalog-guide/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl"&gt;
+The &lt;strong&gt;catalog&lt;/strong&gt; supports single entries or &lt;strong&gt;collections with multiple sub-items&lt;/strong&gt;. Images come from publicly shared Google Drive links.
+&lt;/div&gt;
+&lt;h2 class="relative group"&gt;What is the catalog?
+&lt;div id="what-is-the-catalog" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#what-is-the-catalog" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Separate from blog &lt;strong&gt;posts&lt;/strong&gt;. Use it for typed image collections, structured metadata, and Drive-hosted images (no large files in Git).&lt;/p&gt;
+&lt;p&gt;Open &lt;strong&gt;Catalog&lt;/strong&gt; in the menu: &lt;code&gt;/catalog/&lt;/code&gt; (with language prefixes, e.g. &lt;code&gt;/zh-tw/catalog/&lt;/code&gt;).&lt;/p&gt;</description></item><item><title>Apache Lincense Version 2.0</title><link>https://currysinhk.github.io/blog/posts/tech-things/apache/license-2/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/posts/tech-things/apache/license-2/</guid><description>&lt;h2 class="relative group"&gt;Terminology
+&lt;div id="terminology" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#terminology" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 class="relative group"&gt;ASF = Apache Software Foundation
+&lt;div id="asf--apache-software-foundation" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#asf--apache-software-foundation" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;The ASF was formed from a group of developers of the Apache HTTP Server. The ASF is a 501(c)(3) charitable organization run almost exclusively by volunteers who oversee hundreds of projects. Our sponsors enable us to maintain the infrastructure needed to support them.&lt;/p&gt;</description></item><item><title>OpenAPI Specification</title><link>https://currysinhk.github.io/blog/posts/tech-things/swagger/open-api/</link><pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/posts/tech-things/swagger/open-api/</guid><description>&lt;h2 class="relative group"&gt;Terminology
+&lt;div id="terminology" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#terminology" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 class="relative group"&gt;Webhook
+&lt;div id="webhook" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#webhook" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;A webhook is an HTTP-based callback function that allows lightweight, evebnt-driven communication between 2 application programming interface (APIs). Webhooks are used by a wide variety of web apps to receive small amounts of data from other apps, but webhooks can also be used to trigger automation workflows in Gitops environments.&lt;/p&gt;</description></item><item><title>Where this site from?</title><link>https://currysinhk.github.io/blog/posts/casual-things/website-setup/</link><pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate><guid>https://currysinhk.github.io/blog/posts/casual-things/website-setup/</guid><description>&lt;h2 class="relative group"&gt;What Hugo is
+&lt;div id="what-hugo-is" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#what-hugo-is" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 class="relative group"&gt;Hugo
+&lt;div id="hugo" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#hugo" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://gohugo.io/" target="_blank"&gt;
+Hugo&lt;/a&gt; is a static site generator tool. The website has two different types. one of a static website and another is a dynamic website. I can talk about two types in another post.&lt;/p&gt;
+&lt;p&gt;I prefer a static website because it has faster loading times. Also, Hugo is a good choice when you planning a static website for a personal website.&lt;/p&gt;</description></item></channel></rss>
